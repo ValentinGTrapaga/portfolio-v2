@@ -11,7 +11,7 @@ import { NavBar } from './components/NavBar/NavBar'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex min-h-screen flex-col items-center justify-between w-screen">
       <NavBar />
       <Section classes="justify-evenly">
         <Title />
@@ -36,7 +36,7 @@ export default function Home() {
           ))}
         </UList>
       </Section>
-      <Section classes="gap-12 justify-center">
+      <Section classes="gap-12 justify-center items-center">
         <SectionTitle title="Contact me" />
         <ContactForm />
       </Section>

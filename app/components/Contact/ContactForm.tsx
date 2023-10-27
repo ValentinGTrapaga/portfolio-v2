@@ -20,7 +20,7 @@ export const ContactForm = () => {
     <form
       ref={formRef}
       action={submitForm}
-      className="flex flex-col w-full gap-4 items-center"
+      className="flex flex-col sm:w-full gap-4 items-center w-[80vw]"
     >
       <ContactLabel>
         <ContactP>Name</ContactP>

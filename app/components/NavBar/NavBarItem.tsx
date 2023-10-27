@@ -22,7 +22,7 @@ export const NavBarItem = ({
     >
       <a href={href} target="_blank">
         <span
-          className={`px-2 py-1 font-bold absolute top-1/2 left-6 translate-x-1/2 -translate-y-1/2 w-full duration-300 ${
+          className={`px-2 py-1 font-bold absolute md:top-1/2 md:left-4 md:translate-x-1/2 -translate-y-1/2 duration-300 hidden w-full md:inline ${
             isOpen ? 'text-white' : 'text-transparent'
           }`}
         >

@@ -8,8 +8,8 @@ import { NavBarItem } from './NavBarItem'
 
 export const NavBar = () => {
   return (
-    <nav className="fixed top-0 left-0 h-screen flex flex-col items-center justify-center pl-4">
-      <ul className="flex flex-col gap-4 text-white z-10">
+    <nav className="fixed top-0 left-0 md:h-screen flex items-center justify-center md:pl-4 backdrop-blur-sm md:backdrop-blur-none">
+      <ul className="flex md:flex-col gap-4 text-white z-10 items-center justify-center w-screen md:w-fit py-4 md:py-0">
         <NavBarItem href="https://github.com/ValentinGTrapaga" name="GitHub">
           <BxlGithub className="w-10 h-10" />
         </NavBarItem>

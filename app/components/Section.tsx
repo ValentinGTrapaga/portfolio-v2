@@ -7,7 +7,7 @@ export const Section = ({
 }) => {
   return (
     <section
-      className={`flex flex-col min-h-screen max-w-[1280px] px-12 py-24 mx-auto w-full ${classes}`}
+      className={`flex flex-col min-h-screen max-w-[1280px] p-12 md:px-16 md:py-24 w-full ${classes}`}
     >
       {children}
     </section>
@@ -16,7 +16,7 @@ export const Section = ({
 
 export const SectionTitle = ({ title }: { title: string }) => {
   return (
-    <h1 className="text-7xl font-semibold w-full border-b-2 border-white pb-1">
+    <h1 className="text-4xl sm:text-7xl font-semibold w-full border-b-2 border-white pb-1">
       {title}
     </h1>
   )

@@ -1,6 +1,6 @@
 import { StaticImageData } from 'next/image'
 import EscuchaderoImage from './assets/escuchadero.jpg'
-import PokedexImage from './assets/pokedex.gif'
+import PokedexImage from './assets/pokedex.png'
 import ShoppingifyImage from './assets/shoppingify.png'
 
 export interface WorkExperience {
