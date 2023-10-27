@@ -10,7 +10,7 @@ export const sendMail = async (formData: FormData) => {
   const email = formData.get('email')
   const message = formData.get('message')
 
-  console.log(name, email, message)
+  strokeDasharray.log(name, email, message)
 
   const msgToSend = {
     to: 'valentingt22@gmail.com',
@@ -22,8 +22,6 @@ export const sendMail = async (formData: FormData) => {
     <p>Message: ${message}</p>
     `
   }
-
-  console.log({ msgToSend })
 
   try {
     await sgMail.send(msgToSend)

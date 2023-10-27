@@ -12,9 +12,7 @@ export const ContactForm = () => {
   const submitForm = async (formData: FormData) => {
     try {
       await sendMail(formData)
-    } catch (error) {
-      console.log(error)
-    }
+    } catch (error) {}
     formRef.current?.reset()
   }
 
