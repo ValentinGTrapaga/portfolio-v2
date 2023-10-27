@@ -1,7 +1,7 @@
 export const Title = () => {
   return (
     <div className="flex flex-col gap-12">
-      <h1 className="text-5xl md:text-8xl font-bold text-center w-full">
+      <h1 className="text-5xl md:text-8xl pt-6 md:pt-0 font-bold text-center w-full">
         Hello world, I am Valentin Gonzalez Trapaga
         <span className="block">Fullstack developer</span>
       </h1>
