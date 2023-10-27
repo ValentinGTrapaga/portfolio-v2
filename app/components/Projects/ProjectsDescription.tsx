@@ -4,7 +4,7 @@ import { ProjectTags } from './Tags'
 
 export const ProjectDescription = ({ project }: { project: Project }) => {
   return (
-    <div className="px-4 flex flex-col gap-2 w-full">
+    <div className="px-4 flex flex-col gap-2 w-full mt-4 lg:mt-0">
       <h2 className="text-xl font-bold">{project.title}</h2>
       <p className="text-sm text-justify">{project.summary}</p>
       <div className="flex gap-2 items-center flex-wrap justify-center my-2">
