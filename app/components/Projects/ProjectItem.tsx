@@ -4,10 +4,7 @@ import { ProjectDescription } from './ProjectsDescription'
 
 export const ProjectItem = ({ project }: { project: Project }) => {
   return (
-    <li
-      key={project.link}
-      className="grid grid-cols-[300px,1fr] w-full items-center p-4"
-    >
+    <li className="grid grid-cols-[300px,1fr] w-full items-center p-4">
       <span className="flex items-center justify-center">
         <Image
           objectFit="cover"
