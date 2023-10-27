@@ -10,8 +10,6 @@ export const sendMail = async (formData: FormData) => {
   const email = formData.get('email')
   const message = formData.get('message')
 
-  strokeDasharray.log(name, email, message)
-
   const msgToSend = {
     to: 'valentingt22@gmail.com',
     from: 'gonzaleztrapagav@gmail.com',
