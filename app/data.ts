@@ -1,6 +1,7 @@
 import { StaticImageData } from 'next/image'
 import EscuchaderoImage from './assets/escuchadero.jpg'
 import PokedexImage from './assets/pokedex.gif'
+import ShoppingifyImage from './assets/shoppingify.png'
 
 export interface WorkExperience {
   title: string,
@@ -52,26 +53,26 @@ export const projects: Project[] = [
     stack: [
       'HTML',
       'CSS',
+      'Tailwind CSS',
       'JavaScript',
       'React',
       'NextJS',
       'Zustand',
       'Supabase',
-      'Tailwind CSS'
     ],
-    imageURL: EscuchaderoImage,
-    link: 'https://c10-58-m-reactchallenge-mern.vercel.app//',
-    github: 'https://github.com/No-Country/c10-58-m-reactchallenge-mern',
+    imageURL: ShoppingifyImage,
+    link: 'https://shoppingify-snowy.vercel.app/',
+    github: 'https://github.com/ValentinGTrapaga/shoppingify/',
     summary:
-      'An application dedicated to connecting mental health professionals with clients in need. Developed in React with React Router. Responsible for database development and authentication with Firebase, as well as development of appointment scheduling components, Home page, user profile following a design based on a Figma file. WebApp done as a joint project for No Country.'
+      'WebApp to create your shopping lists and share with anyone. Developed in NextJS 13 with Supabase, Tailwind and Zustand for the global state.devchallenges.io challenge done to learn about NextJS 13 routing and server actions and components, supabase and authentication as well as practice design'
   },
   {
     title: 'Escuchadero',
     stack: [
-      'React',
-      'ReactRouter',
       'HTML',
       'CSS',
+      'React',
+      'ReactRouter',
       'Context API',
       'JavaScript',
       'Firebase',
@@ -90,7 +91,7 @@ export const projects: Project[] = [
       'PokeAPI',
       'HTML',
       'Tailwind CSS',
-      'RESTAPI',
+      'REST API',
       'JavaScript'
     ],
     imageURL: PokedexImage,
