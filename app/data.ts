@@ -23,7 +23,7 @@ export interface Project {
 
 export const workExperience: WorkExperience[] = [{
   title: 'Fullstack Developer',
-  company: 'Upwork',
+  company: 'Freelance',
   startDate: 'Decebember, 2022',
   endDate: null,
   summary: 'I was part of different projects as a freelancer in order to gain experience in the field',

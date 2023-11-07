@@ -12,7 +12,7 @@ export const WorkExperienceItem = ({
         {workExp.title} | {workExp.company} | {workExp.startDate} -{' '}
         {workExp.endDate ?? 'Present'}
       </h2>
-      <p className="text-xs sm:text-base opacity-70 font-semibold">
+      <p className="text-xs sm:text-base text-gray-300 font-semibold">
         {workExp.summary}
       </p>
       <h3 className="my-2 text-sm sm:text-xl font-bold">Responsabilities:</h3>
